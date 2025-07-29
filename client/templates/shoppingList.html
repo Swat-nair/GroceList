@@ -1,0 +1,18 @@
+<template name="shoppingList">
+    <h3>Shopping List</h3>
+    <form class="new-shopping-item">
+        <input type="text" name="name" placeholder="New item" required>
+        <button type="submit">Add</button>
+    </form>
+    <h3>Search Shopping List</h3>
+    <input type="text" id="search-shopping" placeholder="Search shopping items...">
+    <ul>
+        {{#each shoppingItems}}
+        <li>
+            <input type="checkbox" class="toggle-purchased" data-id="{{_id}}" {{checkedIf purchased}}>
+            <span style="text-decoration: {{#if purchased}}line-through{{else}}none{{/if}}">{{name}}</span>
+            <button class="delete-shopping" data-id="{{_id}}">🗑</button>
+        </li>
+        {{/each}}
+    </ul>
+</template>

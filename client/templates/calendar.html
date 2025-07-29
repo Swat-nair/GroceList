@@ -1,0 +1,19 @@
+<template name="calendar">
+    <h3>Expiry Calendar</h3>
+    <div class="calendar">
+        {{#each weeks}}
+        <div class="week">
+            {{#each this}}
+            <div class="day">
+                <strong>{{day}}</strong>
+                <ul>
+                    {{#each items}}
+                    <li>{{name}}</li>
+                    {{/each}}
+                </ul>
+            </div>
+            {{/each}}
+        </div>
+        {{/each}}
+    </div>
+</template>

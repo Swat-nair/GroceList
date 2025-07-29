@@ -1,0 +1,30 @@
+<template name="dashboard">
+    <h2>Dashboard</h2>
+
+    <div class="stats-container">
+        <div class="card">
+            <h3>📦 Total Pantry Items: {{totalItems}}</h3>
+            <h3>⏰ Expiring Soon: {{expiringSoon}}</h3>
+            <h3>🛒 Shopping List Items: {{totalShoppingItems}}</h3>
+        </div>
+    </div>
+
+    <div class="chart-container">
+        <canvas id="pantryChart" width="400" height="200"></canvas>
+    </div>
+
+    <div class="content-grid">
+        <div class="content-card">
+            {{> pantry}}
+        </div>
+        <div class="content-card">
+            {{> addItem}}
+        </div>
+        <div class="content-card">
+            {{> shoppingList}}
+        </div>
+        <div class="content-card">
+            {{> calendar}}
+        </div>
+    </div>
+</template>

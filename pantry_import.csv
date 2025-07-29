@@ -1,0 +1,26 @@
+name,quantity,category,expiresAt
+Whole Milk,1 gallon,Dairy,2025-08-15
+Cheddar Cheese,8 oz,Dairy,2025-09-01
+Yogurt,6 pack,Dairy,2025-08-10
+White Rice,5 lbs,Grains,2026-01-30
+Brown Rice,2 lbs,Grains,2025-11-15
+Quinoa,1 lb,Grains,2025-12-20
+Pasta,3 lbs,Grains,2026-03-01
+Apples,10,Produce,2025-08-05
+Bananas,6,Produce,2025-07-28
+Carrots,1 lb,Produce,2025-08-10
+Broccoli,2 heads,Produce,2025-08-03
+Spinach,16 oz,Produce,2025-07-30
+Chicken Breast,3 lbs,Meat,2025-08-02
+Ground Beef,2 lbs,Meat,2025-08-01
+Salmon Fillet,1 lb,Meat,2025-08-05
+Whole Wheat Bread,1 loaf,Bakery,2025-07-29
+Bagels,6 pack,Bakery,2025-08-01
+Tortillas,10 pack,Bakery,2025-08-10
+Cereal,1 box,Other,2025-10-15
+Peanut Butter,28 oz,Other,2026-02-01
+Olive Oil,16 oz,Other,2026-06-30
+Canned Beans,4 cans,Other,2026-05-01
+Tomato Sauce,24 oz,Other,2025-12-15
+Coffee,12 oz,Other,2026-01-01
+Tea Bags,20 count,Other,2026-03-15

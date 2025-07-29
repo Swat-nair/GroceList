@@ -1,0 +1,10 @@
+<template name="navbar">
+    <nav>
+        {{#if currentUser}}
+        Welcome, {{currentUser.username}}!
+        <button id="logout">Logout</button>
+        {{else}}
+        <p><a href="/signup">Sign Up</a> | <a href="/login">Login</a></p>
+        {{/if}}
+    </nav>
+</template>
